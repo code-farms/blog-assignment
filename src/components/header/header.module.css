@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: var(--headerHeight);
+  background-color: var(--bg);
+  color: var(--textColor);
+}
+
+.nav {
+  width: 20%;
+}
+
+.navlist {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navlist li {
+  font-weight: 600;
+}
+
+.navlist li a:hover {
+  color: var(--darkColor);
+}
+
+.navlist li a:active {
+  color: var(--darkColor);
+}
+
+.search {
+  border: 1px solid var(--borderColor);
+  width: 40%;
+  padding: 5px 15px;
+  border-radius: 50px;
+  display: flex;
+}
+
+.search input {
+  flex: 1;
+  background-color: var(--bg);
+}
