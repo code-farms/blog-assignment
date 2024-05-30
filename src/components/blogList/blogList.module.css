@@ -53,3 +53,24 @@
   padding: 0 25px;
   border-left: 1px solid var(--softTextColor);
 }
+
+@media screen and (max-width: 991px) {
+  .inputWrapper {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .blogListPageWrapper {
+    width: 90%;
+    gap: 40px;
+  }
+
+  .inputWrapper {
+    padding: 0 0 0 15px;
+  }
+
+  .inputWrapper button {
+    padding: 0 15px;
+  }
+}

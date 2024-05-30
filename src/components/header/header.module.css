@@ -9,20 +9,23 @@
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  gap: 5vw;
+  padding: 0 5vw;
   height: var(--headerHeight);
   background-color: var(--bg);
   color: var(--textColor);
 }
 
-.nav {
-  width: 20%;
+.mobileNav {
+  display: none;
 }
 
 .navlist {
   display: flex;
   align-items: center;
   gap: 20px;
+  flex-direction: row;
 }
 
 .navlist li {
@@ -36,4 +39,52 @@
 
 .navlist li a:active {
   color: var(--darkColor);
+}
+
+.menuBtn {
+  display: none;
+}
+
+@media screen and (max-width: 550px) {
+  .navMenu {
+    display: none;
+  }
+
+  .menuBtn {
+    display: flex;
+  }
+
+  .navlist {
+    display: none;
+  }
+
+  .mobileNav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    padding: 20px 0;
+    top: 80;
+    left: 0;
+    width: 100%;
+    background-color: var(--bg);
+  }
+
+  .mobileNav li {
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .mobileNav li a:hover {
+    color: var(--darkColor);
+  }
+
+  .mobileNav li a:active {
+    color: var(--darkColor);
+  }
+
+  .menuBtn svg {
+    font-size: 20px;
+  }
 }

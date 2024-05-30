@@ -13,6 +13,10 @@ export default function Blog({ blog }: { blog: BlogInterface }) {
     setIsOpen(false);
   };
 
+  const onInit = () => {
+    console.log("lightGallery has been initialized");
+  };
+
   return (
     <div className={styles.blogPostWrapper}>
       <div className={styles.thumbnailBox}>
