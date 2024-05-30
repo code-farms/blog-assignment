@@ -22,6 +22,10 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 3. Search filter
 4. Thumbnail lighbox effect.
 
+## GitHub Link
+
+https://github.com/code-farms/blog-assignment
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
