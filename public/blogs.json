@@ -1,0 +1,802 @@
+[
+  {
+    "id": 1,
+    "title": "Understanding React Hooks",
+    "date": "01 Jan, 2023",
+    "author": "Jane Doe",
+    "description": "A comprehensive guide to understanding and using React Hooks in your applications.",
+    "thumbnail": "https://picsum.photos/300/200?random=1"
+  },
+  {
+    "id": 2,
+    "title": "Mastering CSS Grid",
+    "date": "15 Feb, 2023",
+    "author": "John Smith",
+    "description": "Learn how to create complex layouts easily with CSS Grid.",
+    "thumbnail": "https://picsum.photos/300/200?random=2"
+  },
+  {
+    "id": 3,
+    "title": "JavaScript ES6 Features",
+    "date": "22 Mar, 2023",
+    "author": "Mary Johnson",
+    "description": "An overview of the new features introduced in ES6.",
+    "thumbnail": "https://picsum.photos/300/200?random=3"
+  },
+  {
+    "id": 4,
+    "title": "Intro to TypeScript",
+    "date": "10 Apr, 2023",
+    "author": "James Williams",
+    "description": "Getting started with TypeScript for robust JavaScript development.",
+    "thumbnail": "https://picsum.photos/300/200?random=4"
+  },
+  {
+    "id": 5,
+    "title": "Building REST APIs with Node.js",
+    "date": "18 May, 2023",
+    "author": "Patricia Brown",
+    "description": "A step-by-step guide to building RESTful APIs using Node.js.",
+    "thumbnail": "https://picsum.photos/300/200?random=5"
+  },
+  {
+    "id": 6,
+    "title": "Understanding Async/Await",
+    "date": "25 Jun, 2023",
+    "author": "Robert Davis",
+    "description": "Learn how to handle asynchronous operations in JavaScript with async/await.",
+    "thumbnail": "https://picsum.photos/300/200?random=6"
+  },
+  {
+    "id": 7,
+    "title": "Vue.js Basics",
+    "date": "03 Jul, 2023",
+    "author": "Linda Martinez",
+    "description": "A beginner's guide to building applications with Vue.js.",
+    "thumbnail": "https://picsum.photos/300/200?random=7"
+  },
+  {
+    "id": 8,
+    "title": "Advanced React Patterns",
+    "date": "12 Aug, 2023",
+    "author": "Michael Rodriguez",
+    "description": "Exploring advanced design patterns in React development.",
+    "thumbnail": "https://picsum.photos/300/200?random=8"
+  },
+  {
+    "id": 9,
+    "title": "State Management with Redux",
+    "date": "20 Sep, 2023",
+    "author": "Elizabeth Garcia",
+    "description": "An in-depth look at managing application state with Redux.",
+    "thumbnail": "https://picsum.photos/300/200?random=9"
+  },
+  {
+    "id": 10,
+    "title": "GraphQL for Beginners",
+    "date": "28 Oct, 2023",
+    "author": "Christopher Martinez",
+    "description": "Learn the basics of GraphQL and how to use it in your projects.",
+    "thumbnail": "https://picsum.photos/300/200?random=10"
+  },
+  {
+    "id": 11,
+    "title": "Unit Testing with Jest",
+    "date": "05 Nov, 2023",
+    "author": "Daniel Hernandez",
+    "description": "How to write unit tests for your JavaScript code using Jest.",
+    "thumbnail": "https://picsum.photos/300/200?random=11"
+  },
+  {
+    "id": 12,
+    "title": "Building SPAs with Angular",
+    "date": "13 Dec, 2023",
+    "author": "Barbara Clark",
+    "description": "A guide to building single-page applications with Angular.",
+    "thumbnail": "https://picsum.photos/300/200?random=12"
+  },
+  {
+    "id": 13,
+    "title": "Responsive Design with Flexbox",
+    "date": "21 Jan, 2024",
+    "author": "Paul Lewis",
+    "description": "Learn how to create responsive layouts using Flexbox.",
+    "thumbnail": "https://picsum.photos/300/200?random=13"
+  },
+  {
+    "id": 14,
+    "title": "Getting Started with Next.js",
+    "date": "29 Feb, 2024",
+    "author": "Nancy Walker",
+    "description": "Introduction to building server-side rendered React applications with Next.js.",
+    "thumbnail": "https://picsum.photos/300/200?random=14"
+  },
+  {
+    "id": 15,
+    "title": "CSS Animations and Transitions",
+    "date": "08 Mar, 2024",
+    "author": "Karen Young",
+    "description": "Adding animations and transitions to your web projects with CSS.",
+    "thumbnail": "https://picsum.photos/300/200?random=15"
+  },
+  {
+    "id": 16,
+    "title": "Understanding Webpack",
+    "date": "16 Apr, 2024",
+    "author": "Joshua Hall",
+    "description": "A comprehensive guide to configuring and using Webpack.",
+    "thumbnail": "https://picsum.photos/300/200?random=16"
+  },
+  {
+    "id": 17,
+    "title": "Building Mobile Apps with React Native",
+    "date": "24 May, 2024",
+    "author": "Deborah Allen",
+    "description": "How to create cross-platform mobile apps using React Native.",
+    "thumbnail": "https://picsum.photos/300/200?random=17"
+  },
+  {
+    "id": 18,
+    "title": "Diving into Docker",
+    "date": "01 Jun, 2024",
+    "author": "Kevin Wright",
+    "description": "An introduction to containerization with Docker.",
+    "thumbnail": "https://picsum.photos/300/200?random=18"
+  },
+  {
+    "id": 19,
+    "title": "Microservices Architecture",
+    "date": "09 Jul, 2024",
+    "author": "Emily King",
+    "description": "Understanding the principles and benefits of microservices architecture.",
+    "thumbnail": "https://picsum.photos/300/200?random=19"
+  },
+  {
+    "id": 20,
+    "title": "Securing Your Web Applications",
+    "date": "17 Aug, 2024",
+    "author": "Ryan Scott",
+    "description": "Best practices for securing your web applications against common threats.",
+    "thumbnail": "https://picsum.photos/300/200?random=20"
+  },
+  {
+    "id": 21,
+    "title": "Building APIs with GraphQL",
+    "date": "25 Sep, 2024",
+    "author": "Sara Robinson",
+    "description": "A guide to building and consuming APIs using GraphQL.",
+    "thumbnail": "https://picsum.photos/300/200?random=21"
+  },
+  {
+    "id": 22,
+    "title": "Serverless Architecture",
+    "date": "03 Oct, 2024",
+    "author": "Frank Moore",
+    "description": "Introduction to serverless architecture and its benefits.",
+    "thumbnail": "https://picsum.photos/300/200?random=22"
+  },
+  {
+    "id": 23,
+    "title": "Testing React Applications",
+    "date": "11 Nov, 2024",
+    "author": "Amy Thomas",
+    "description": "How to test your React applications with various testing libraries.",
+    "thumbnail": "https://picsum.photos/300/200?random=23"
+  },
+  {
+    "id": 24,
+    "title": "Web Accessibility Best Practices",
+    "date": "19 Dec, 2024",
+    "author": "Steven Martinez",
+    "description": "Ensuring your web applications are accessible to all users.",
+    "thumbnail": "https://picsum.photos/300/200?random=24"
+  },
+  {
+    "id": 25,
+    "title": "Performance Optimization Tips",
+    "date": "27 Jan, 2025",
+    "author": "Laura White",
+    "description": "Tips and tricks to optimize the performance of your web applications.",
+    "thumbnail": "https://picsum.photos/300/200?random=25"
+  },
+  {
+    "id": 26,
+    "title": "GraphQL vs REST",
+    "date": "04 Feb, 2025",
+    "author": "Brian Harris",
+    "description": "Comparing GraphQL and REST for API development.",
+    "thumbnail": "https://picsum.photos/300/200?random=26"
+  },
+  {
+    "id": 27,
+    "title": "Introduction to Machine Learning",
+    "date": "12 Mar, 2025",
+    "author": "Megan Nelson",
+    "description": "Getting started with machine learning and its applications.",
+    "thumbnail": "https://picsum.photos/300/200?random=27"
+  },
+  {
+    "id": 28,
+    "title": "Building E-commerce Websites",
+    "date": "20 Apr, 2025",
+    "author": "Jason Carter",
+    "description": "A guide to building feature-rich e-commerce websites.",
+    "thumbnail": "https://picsum.photos/300/200?random=28"
+  },
+  {
+    "id": 29,
+    "title": "Deploying with Kubernetes",
+    "date": "28 May, 2025",
+    "author": "Andrea Stewart",
+    "description": "How to deploy and manage containerized applications with Kubernetes.",
+    "thumbnail": "https://picsum.photos/300/200?random=29"
+  },
+  {
+    "id": 30,
+    "title": "Introduction to DevOps",
+    "date": "05 Jun, 2025",
+    "author": "Jacob Phillips",
+    "description": "Understanding the principles and practices of DevOps.",
+    "thumbnail": "https://picsum.photos/300/200?random=30"
+  },
+  {
+    "id": 31,
+    "title": "Building Real-time Applications",
+    "date": "13 Jul, 2025",
+    "author": "Cheryl Roberts",
+    "description": "Techniques for building real-time web applications.",
+    "thumbnail": "https://picsum.photos/300/200?random=31"
+  },
+  {
+    "id": 32,
+    "title": "Introduction to Svelte",
+    "date": "21 Aug, 2025",
+    "author": "David Allen",
+    "description": "Getting started with the Svelte framework for building web applications.",
+    "thumbnail": "https://picsum.photos/300/200?random=32"
+  },
+  {
+    "id": 33,
+    "title": "Building PWAs",
+    "date": "29 Sep, 2025",
+    "author": "Barbara Young",
+    "description": "How to build progressive web applications (PWAs).",
+    "thumbnail": "https://picsum.photos/300/200?random=33"
+  },
+  {
+    "id": 34,
+    "title": "Modern JavaScript Tooling",
+    "date": "07 Oct, 2025",
+    "author": "Richard Adams",
+    "description": "An overview of modern JavaScript tooling and workflows.",
+    "thumbnail": "https://picsum.photos/300/200?random=34"
+  },
+  {
+    "id": 35,
+    "title": "Introduction to WebAssembly",
+    "date": "15 Nov, 2025",
+    "author": "Jennifer Clark",
+    "description": "An introduction to WebAssembly and its use cases.",
+    "thumbnail": "https://picsum.photos/300/200?random=35"
+  },
+  {
+    "id": 36,
+    "title": "Server-side Rendering with Next.js",
+    "date": "23 Dec, 2025",
+    "author": "Mark Perez",
+    "description": "How to implement server-side rendering in your React applications using Next.js.",
+    "thumbnail": "https://picsum.photos/300/200?random=36"
+  },
+  {
+    "id": 37,
+    "title": "GraphQL Subscriptions",
+    "date": "31 Jan, 2026",
+    "author": "Patricia Walker",
+    "description": "Implementing real-time data with GraphQL subscriptions.",
+    "thumbnail": "https://picsum.photos/300/200?random=37"
+  },
+  {
+    "id": 38,
+    "title": "Building Desktop Apps with Electron",
+    "date": "08 Feb, 2026",
+    "author": "Steven Young",
+    "description": "How to create cross-platform desktop applications using Electron.",
+    "thumbnail": "https://picsum.photos/300/200?random=38"
+  },
+  {
+    "id": 39,
+    "title": "Introduction to Tailwind CSS",
+    "date": "16 Mar, 2026",
+    "author": "Nancy King",
+    "description": "A beginner's guide to using Tailwind CSS for utility-first styling.",
+    "thumbnail": "https://picsum.photos/300/200?random=39"
+  },
+  {
+    "id": 40,
+    "title": "Building Offline-first Applications",
+    "date": "24 Apr, 2026",
+    "author": "Kevin Harris",
+    "description": "Techniques for building applications that work offline.",
+    "thumbnail": "https://picsum.photos/300/200?random=40"
+  },
+  {
+    "id": 41,
+    "title": "Managing State with Recoil",
+    "date": "02 May, 2026",
+    "author": "Laura Lewis",
+    "description": "A guide to managing state in React applications using Recoil.",
+    "thumbnail": "https://picsum.photos/300/200?random=41"
+  },
+  {
+    "id": 42,
+    "title": "Understanding CSS-in-JS",
+    "date": "10 Jun, 2026",
+    "author": "Brian Clark",
+    "description": "An introduction to CSS-in-JS libraries and their benefits.",
+    "thumbnail": "https://picsum.photos/300/200?random=42"
+  },
+  {
+    "id": 43,
+    "title": "Building Scalable Web Applications",
+    "date": "18 Jul, 2026",
+    "author": "Deborah Roberts",
+    "description": "Best practices for building scalable web applications.",
+    "thumbnail": "https://picsum.photos/300/200?random=43"
+  },
+  {
+    "id": 44,
+    "title": "API Gateway Patterns",
+    "date": "26 Aug, 2026",
+    "author": "Joshua Martinez",
+    "description": "An overview of API gateway patterns for microservices.",
+    "thumbnail": "https://picsum.photos/300/200?random=44"
+  },
+  {
+    "id": 45,
+    "title": "Building Jamstack Websites",
+    "date": "03 Sep, 2026",
+    "author": "Emily Allen",
+    "description": "A guide to building static websites with the Jamstack architecture.",
+    "thumbnail": "https://picsum.photos/300/200?random=45"
+  },
+  {
+    "id": 46,
+    "title": "Understanding OAuth 2.0",
+    "date": "11 Oct, 2026",
+    "author": "Ryan Stewart",
+    "description": "An introduction to OAuth 2.0 and its implementation.",
+    "thumbnail": "https://picsum.photos/300/200?random=46"
+  },
+  {
+    "id": 47,
+    "title": "Building GraphQL APIs with Apollo",
+    "date": "19 Nov, 2026",
+    "author": "Sara Hall",
+    "description": "How to build and consume GraphQL APIs using Apollo.",
+    "thumbnail": "https://picsum.photos/300/200?random=47"
+  },
+  {
+    "id": 48,
+    "title": "Server-side Rendering with Nuxt.js",
+    "date": "27 Dec, 2026",
+    "author": "Frank Young",
+    "description": "Implementing server-side rendering in your Vue.js applications using Nuxt.js.",
+    "thumbnail": "https://picsum.photos/300/200?random=48"
+  },
+  {
+    "id": 49,
+    "title": "Building Real-time Chat Applications",
+    "date": "04 Jan, 2027",
+    "author": "Amy Lewis",
+    "description": "A guide to building real-time chat applications with WebSockets.",
+    "thumbnail": "https://picsum.photos/300/200?random=49"
+  },
+  {
+    "id": 50,
+    "title": "Building Data Visualization Dashboards",
+    "date": "12 Feb, 2027",
+    "author": "Steven Harris",
+    "description": "How to create interactive data visualization dashboards.",
+    "thumbnail": "https://picsum.photos/300/200?random=50"
+  },
+  {
+    "id": 51,
+    "title": "Introduction to Firebase",
+    "date": "20 Mar, 2027",
+    "author": "Barbara Walker",
+    "description": "Getting started with Firebase for backend as a service.",
+    "thumbnail": "https://picsum.photos/300/200?random=51"
+  },
+  {
+    "id": 52,
+    "title": "Building Serverless APIs with AWS Lambda",
+    "date": "28 Apr, 2027",
+    "author": "Mark Robinson",
+    "description": "How to create serverless APIs using AWS Lambda.",
+    "thumbnail": "https://picsum.photos/300/200?random=52"
+  },
+  {
+    "id": 53,
+    "title": "Introduction to JAMstack",
+    "date": "06 May, 2027",
+    "author": "Patricia King",
+    "description": "An introduction to JAMstack architecture for modern web development.",
+    "thumbnail": "https://picsum.photos/300/200?random=53"
+  },
+  {
+    "id": 54,
+    "title": "Understanding React Hooks",
+    "date": "01 Jan, 2023",
+    "author": "Jane Doe",
+    "description": "A comprehensive guide to understanding and using React Hooks in your applications.",
+    "thumbnail": "https://picsum.photos/300/200?random=54"
+  },
+  {
+    "id": 55,
+    "title": "Mastering CSS Grid",
+    "date": "15 Feb, 2023",
+    "author": "John Smith",
+    "description": "Learn how to create complex layouts easily with CSS Grid.",
+    "thumbnail": "https://picsum.photos/300/200?random=55"
+  },
+  {
+    "id": 56,
+    "title": "JavaScript ES6 Features",
+    "date": "22 Mar, 2023",
+    "author": "Mary Johnson",
+    "description": "An overview of the new features introduced in ES6.",
+    "thumbnail": "https://picsum.photos/300/200?random=56"
+  },
+  {
+    "id": 57,
+    "title": "Intro to TypeScript",
+    "date": "10 Apr, 2023",
+    "author": "James Williams",
+    "description": "Getting started with TypeScript for robust JavaScript development.",
+    "thumbnail": "https://picsum.photos/300/200?random=58"
+  },
+  {
+    "id": 58,
+    "title": "Building REST APIs with Node.js",
+    "date": "18 May, 2023",
+    "author": "Patricia Brown",
+    "description": "A step-by-step guide to building RESTful APIs using Node.js.",
+    "thumbnail": "https://picsum.photos/300/200?random=58"
+  },
+  {
+    "id": 59,
+    "title": "Understanding Async/Await",
+    "date": "25 Jun, 2023",
+    "author": "Robert Davis",
+    "description": "Learn how to handle asynchronous operations in JavaScript with async/await.",
+    "thumbnail": "https://picsum.photos/300/200?random=59"
+  },
+  {
+    "id": 60,
+    "title": "Vue.js Basics",
+    "date": "03 Jul, 2023",
+    "author": "Linda Martinez",
+    "description": "A beginner's guide to building applications with Vue.js.",
+    "thumbnail": "https://picsum.photos/300/200?random=60"
+  },
+  {
+    "id": 61,
+    "title": "Advanced React Patterns",
+    "date": "12 Aug, 2023",
+    "author": "Michael Rodriguez",
+    "description": "Exploring advanced design patterns in React development.",
+    "thumbnail": "https://picsum.photos/300/200?random=61"
+  },
+  {
+    "id": 62,
+    "title": "State Management with Redux",
+    "date": "20 Sep, 2023",
+    "author": "Elizabeth Garcia",
+    "description": "An in-depth look at managing application state with Redux.",
+    "thumbnail": "https://picsum.photos/300/200?random=62"
+  },
+  {
+    "id": 63,
+    "title": "GraphQL for Beginners",
+    "date": "28 Oct, 2023",
+    "author": "Christopher Martinez",
+    "description": "Learn the basics of GraphQL and how to use it in your projects.",
+    "thumbnail": "https://picsum.photos/300/200?random=63"
+  },
+  {
+    "id": 64,
+    "title": "Unit Testing with Jest",
+    "date": "05 Nov, 2023",
+    "author": "Daniel Hernandez",
+    "description": "How to write unit tests for your JavaScript code using Jest.",
+    "thumbnail": "https://picsum.photos/300/200?random=64"
+  },
+  {
+    "id": 65,
+    "title": "Building SPAs with Angular",
+    "date": "13 Dec, 2023",
+    "author": "Barbara Clark",
+    "description": "A guide to building single-page applications with Angular.",
+    "thumbnail": "https://picsum.photos/300/200?random=65"
+  },
+  {
+    "id": 66,
+    "title": "Responsive Design with Flexbox",
+    "date": "21 Jan, 2024",
+    "author": "Paul Lewis",
+    "description": "Learn how to create responsive layouts using Flexbox.",
+    "thumbnail": "https://picsum.photos/300/200?random=66"
+  },
+  {
+    "id": 67,
+    "title": "Getting Started with Next.js",
+    "date": "29 Feb, 2024",
+    "author": "Nancy Walker",
+    "description": "Introduction to building server-side rendered React applications with Next.js.",
+    "thumbnail": "https://picsum.photos/300/200?random=67"
+  },
+  {
+    "id": 68,
+    "title": "CSS Animations and Transitions",
+    "date": "08 Mar, 2024",
+    "author": "Karen Young",
+    "description": "Adding animations and transitions to your web projects with CSS.",
+    "thumbnail": "https://picsum.photos/300/200?random=68"
+  },
+  {
+    "id": 69,
+    "title": "Understanding Webpack",
+    "date": "16 Apr, 2024",
+    "author": "Joshua Hall",
+    "description": "A comprehensive guide to configuring and using Webpack.",
+    "thumbnail": "https://picsum.photos/300/200?random=69"
+  },
+  {
+    "id": 70,
+    "title": "Building Mobile Apps with React Native",
+    "date": "24 May, 2024",
+    "author": "Deborah Allen",
+    "description": "How to create cross-platform mobile apps using React Native.",
+    "thumbnail": "https://picsum.photos/300/200?random=70"
+  },
+  {
+    "id": 71,
+    "title": "Diving into Docker",
+    "date": "01 Jun, 2024",
+    "author": "Kevin Wright",
+    "description": "An introduction to containerization with Docker.",
+    "thumbnail": "https://picsum.photos/300/200?random=71"
+  },
+  {
+    "id": 72,
+    "title": "Microservices Architecture",
+    "date": "09 Jul, 2024",
+    "author": "Emily King",
+    "description": "Understanding the principles and benefits of microservices architecture.",
+    "thumbnail": "https://picsum.photos/300/200?random=72"
+  },
+  {
+    "id": 73,
+    "title": "Securing Your Web Applications",
+    "date": "17 Aug, 2024",
+    "author": "Ryan Scott",
+    "description": "Best practices for securing your web applications against common threats.",
+    "thumbnail": "https://picsum.photos/300/200?random=73"
+  },
+  {
+    "id": 74,
+    "title": "Building APIs with GraphQL",
+    "date": "25 Sep, 2024",
+    "author": "Sara Robinson",
+    "description": "A guide to building and consuming APIs using GraphQL.",
+    "thumbnail": "https://picsum.photos/300/200?random=74"
+  },
+  {
+    "id": 75,
+    "title": "Building APIs with GraphQL",
+    "date": "25 Sep, 2024",
+    "author": "Sara Robinson",
+    "description": "A guide to building and consuming APIs using GraphQL.",
+    "thumbnail": "https://picsum.photos/300/200?random=75"
+  },
+  {
+    "id": 76,
+    "title": "Serverless Architecture",
+    "date": "03 Oct, 2024",
+    "author": "Frank Moore",
+    "description": "Introduction to serverless architecture and its benefits.",
+    "thumbnail": "https://picsum.photos/300/200?random=76"
+  },
+  {
+    "id": 77,
+    "title": "Testing React Applications",
+    "date": "11 Nov, 2024",
+    "author": "Amy Thomas",
+    "description": "How to test your React applications with various testing libraries.",
+    "thumbnail": "https://picsum.photos/300/200?random=77"
+  },
+  {
+    "id": 78,
+    "title": "Web Accessibility Best Practices",
+    "date": "19 Dec, 2024",
+    "author": "Steven Martinez",
+    "description": "Ensuring your web applications are accessible to all users.",
+    "thumbnail": "https://picsum.photos/300/200?random=78"
+  },
+  {
+    "id": 79,
+    "title": "Performance Optimization Tips",
+    "date": "27 Jan, 2025",
+    "author": "Laura White",
+    "description": "Tips and tricks to optimize the performance of your web applications.",
+    "thumbnail": "https://picsum.photos/300/200?random=79"
+  },
+  {
+    "id": 80,
+    "title": "GraphQL vs REST",
+    "date": "04 Feb, 2025",
+    "author": "Brian Harris",
+    "description": "Comparing GraphQL and REST for API development.",
+    "thumbnail": "https://picsum.photos/300/200?random=80"
+  },
+  {
+    "id": 81,
+    "title": "Introduction to Machine Learning",
+    "date": "12 Mar, 2025",
+    "author": "Megan Nelson",
+    "description": "Getting started with machine learning and its applications.",
+    "thumbnail": "https://picsum.photos/300/200?random=81"
+  },
+  {
+    "id": 82,
+    "title": "Building E-commerce Websites",
+    "date": "20 Apr, 2025",
+    "author": "Jason Carter",
+    "description": "A guide to building feature-rich e-commerce websites.",
+    "thumbnail": "https://picsum.photos/300/200?random=82"
+  },
+  {
+    "id": 83,
+    "title": "Deploying with Kubernetes",
+    "date": "28 May, 2025",
+    "author": "Andrea Stewart",
+    "description": "How to deploy and manage containerized applications with Kubernetes.",
+    "thumbnail": "https://picsum.photos/300/200?random=83"
+  },
+  {
+    "id": 84,
+    "title": "Introduction to DevOps",
+    "date": "05 Jun, 2025",
+    "author": "Jacob Phillips",
+    "description": "Understanding the principles and practices of DevOps.",
+    "thumbnail": "https://picsum.photos/300/200?random=84"
+  },
+  {
+    "id": 85,
+    "title": "Building Real-time Applications",
+    "date": "13 Jul, 2025",
+    "author": "Cheryl Roberts",
+    "description": "Techniques for building real-time web applications.",
+    "thumbnail": "https://picsum.photos/300/200?random=85"
+  },
+  {
+    "id": 86,
+    "title": "Introduction to Svelte",
+    "date": "21 Aug, 2025",
+    "author": "David Allen",
+    "description": "Getting started with the Svelte framework for building web applications.",
+    "thumbnail": "https://picsum.photos/300/200?random=86"
+  },
+  {
+    "id": 87,
+    "title": "Building PWAs",
+    "date": "29 Sep, 2025",
+    "author": "Barbara Young",
+    "description": "How to build progressive web applications (PWAs).",
+    "thumbnail": "https://picsum.photos/300/200?random=87"
+  },
+  {
+    "id": 88,
+    "title": "Modern JavaScript Tooling",
+    "date": "07 Oct, 2025",
+    "author": "Richard Adams",
+    "description": "An overview of modern JavaScript tooling and workflows.",
+    "thumbnail": "https://picsum.photos/300/200?random=88"
+  },
+  {
+    "id": 89,
+    "title": "Introduction to WebAssembly",
+    "date": "15 Nov, 2025",
+    "author": "Jennifer Clark",
+    "description": "An introduction to WebAssembly and its use cases.",
+    "thumbnail": "https://picsum.photos/300/200?random=89"
+  },
+  {
+    "id": 90,
+    "title": "Server-side Rendering with Next.js",
+    "date": "23 Dec, 2025",
+    "author": "Mark Perez",
+    "description": "How to implement server-side rendering in your React applications using Next.js.",
+    "thumbnail": "https://picsum.photos/300/200?random=90"
+  },
+  {
+    "id": 91,
+    "title": "GraphQL Subscriptions",
+    "date": "31 Jan, 2026",
+    "author": "Patricia Walker",
+    "description": "Implementing real-time data with GraphQL subscriptions.",
+    "thumbnail": "https://picsum.photos/300/200?random=91"
+  },
+  {
+    "id": 92,
+    "title": "Building Desktop Apps with Electron",
+    "date": "08 Feb, 2026",
+    "author": "Steven Young",
+    "description": "How to create cross-platform desktop applications using Electron.",
+    "thumbnail": "https://picsum.photos/300/200?random=92"
+  },
+  {
+    "id": 93,
+    "title": "Introduction to Tailwind CSS",
+    "date": "16 Mar, 2026",
+    "author": "Nancy King",
+    "description": "A beginner's guide to using Tailwind CSS for utility-first styling.",
+    "thumbnail": "https://picsum.photos/300/200?random=93"
+  },
+  {
+    "id": 94,
+    "title": "Building Offline-first Applications",
+    "date": "24 Apr, 2026",
+    "author": "Kevin Harris",
+    "description": "Techniques for building applications that work offline.",
+    "thumbnail": "https://picsum.photos/300/200?random=94"
+  },
+  {
+    "id": 95,
+    "title": "Managing State with Recoil",
+    "date": "02 May, 2026",
+    "author": "Laura Lewis",
+    "description": "A guide to managing state in React applications using Recoil.",
+    "thumbnail": "https://picsum.photos/300/200?random=95"
+  },
+  {
+    "id": 96,
+    "title": "Understanding CSS-in-JS",
+    "date": "10 Jun, 2026",
+    "author": "Brian Clark",
+    "description": "An introduction to CSS-in-JS libraries and their benefits.",
+    "thumbnail": "https://picsum.photos/300/200?random=96"
+  },
+  {
+    "id": 97,
+    "title": "Building Scalable Web Applications",
+    "date": "18 Jul, 2026",
+    "author": "Deborah Roberts",
+    "description": "Best practices for building scalable web applications.",
+    "thumbnail": "https://picsum.photos/300/200?random=97"
+  },
+  {
+    "id": 98,
+    "title": "API Gateway Patterns",
+    "date": "26 Aug, 2026",
+    "author": "Joshua Martinez",
+    "description": "An overview of API gateway patterns for microservices.",
+    "thumbnail": "https://picsum.photos/300/200?random=98"
+  },
+  {
+    "id": 99,
+    "title": "Building Jamstack Websites",
+    "date": "03 Sep, 2026",
+    "author": "Emily Allen",
+    "description": "A guide to building static websites with the Jamstack architecture.",
+    "thumbnail": "https://picsum.photos/300/200?random=99"
+  },
+  {
+    "id": 100,
+    "title": "Understanding OAuth 2.0",
+    "date": "11 Oct, 2026",
+    "author": "Ryan Stewart",
+    "description": "An introduction to OAuth 2.0 and its implementation.",
+    "thumbnail": "https://picsum.photos/300/200?random=100"
+  }
+]

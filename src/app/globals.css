@@ -1,13 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
   --bg: rgb(233, 231, 248);
-  --textColor: rgb(30, 27, 27);
+  --textColor: #21243d;
   --softBg: #f0f0f0;
-  --softTextColor: #626262;
-  --headerHeight: 60px;
+  --softTextColor: #8695a4;
+  --headerHeight: 80px;
+  --footerHeight: 182px;
   --darkColor: #ff6464;
 }
 
@@ -19,6 +22,7 @@
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  font-family: "Heebo", sans-serif;
 }
 
 a {
@@ -27,18 +31,18 @@ a {
 }
 
 .dark {
-  --bg: #273047;
-  --textColor: #ddd;
-  --softBg: #d0d5de;
+  --bg: #121724;
+  --textColor: #cecccc;
+  --softBg: #495f75;
   --softTextColor: #a6a6a6;
   --borderColor: #ddd;
 }
 
 .light {
   --bg: #f8fbfe;
-  --textColor: #1e1b1b;
+  --textColor: #21243d;
   --softBg: #f0f0f0;
-  --softTextColor: #626262;
+  --softTextColor: #8695a4;
   --borderColor: #1e1b1b;
 }
 

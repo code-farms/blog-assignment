@@ -1,0 +1,69 @@
+.blogPostWrapper {
+  display: flex;
+  gap: 40px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.blogPostWrapper:hover {
+  background-color: var(--softBg);
+}
+
+.thumbnailBox {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.thumbnail {
+  border-radius: 20px;
+  width: 300px;
+  height: 200px;
+  /* object-fit: cover; */
+}
+
+.blogPostWrapper:hover .thumbnail {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.closeButton {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 34px;
+  color: white;
+}
+
+.closeButton:hover {
+  cursor: pointer;
+}
+
+.blogPost {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.info {
+  font-size: 20px;
+}
+
+.saperator {
+  padding: 0 20px;
+}
+
+.author {
+  color: var(--softTextColor);
+}
+
+.description {
+  font-size: 16px;
+}

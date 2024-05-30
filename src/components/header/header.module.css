@@ -1,3 +1,11 @@
+.headerWrapper {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid var(--softTextColor);
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -19,6 +27,7 @@
 
 .navlist li {
   font-weight: 600;
+  font-size: 20px;
 }
 
 .navlist li a:hover {
@@ -27,17 +36,4 @@
 
 .navlist li a:active {
   color: var(--darkColor);
-}
-
-.search {
-  border: 1px solid var(--borderColor);
-  width: 40%;
-  padding: 5px 15px;
-  border-radius: 50px;
-  display: flex;
-}
-
-.search input {
-  flex: 1;
-  background-color: var(--bg);
 }

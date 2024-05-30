@@ -1,0 +1,55 @@
+.blogListPage {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10vh 0;
+  color: var(--textColor);
+  background-color: var(--bg);
+  margin-top: var(--headerHeight);
+}
+
+.blogListPageWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  width: 65%;
+}
+
+.title {
+  font-size: 44px;
+  font-weight: 600;
+}
+
+.blogList {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.searchBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputWrapper {
+  border: 1px solid var(--softTextColor);
+  width: 70%;
+  padding: 0 0 0 25px;
+  border-radius: 50px;
+  display: flex;
+  height: 40px;
+}
+
+.inputWrapper input {
+  flex: 1;
+  background-color: var(--bg);
+  outline: 0;
+  padding: 2px 5px;
+  line-height: 20px;
+}
+
+.inputWrapper button {
+  padding: 0 25px;
+  border-left: 1px solid var(--softTextColor);
+}

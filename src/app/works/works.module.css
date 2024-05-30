@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  height: 65vh;
+  color: var(--textColor);
+  background-color: var(--bg);
+  margin-top: var(--headerHeight);
+  justify-content: center;
+  align-items: center;
+}
+
+.coverImageBox {
+  width: 30%;
+  height: auto;
+}
+
+.coverImage {
+  width: 100%;
+}
